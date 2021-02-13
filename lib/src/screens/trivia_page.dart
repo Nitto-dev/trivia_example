@@ -143,7 +143,7 @@ class TriviaMain extends StatelessWidget {
               );
             }),
         Container(
-          height: 18,
+          height: 20,
         ),
         CountdownWidget(
           width: MediaQuery.of(context).size.width,

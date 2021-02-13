@@ -12,12 +12,11 @@ class App extends StatelessWidget {
   final appState = AppState();
 
   @override
-  Widget build(BuildContext context) {
-    return AppStateProvider<AppState>(
+  Widget build(BuildContext context)=> AppStateProvider<AppState>(
       appState: appState,
       child: MaterialPage(),
     );
-  }
+
 }
 
 class MaterialPage extends StatelessWidget {
@@ -27,16 +26,15 @@ class MaterialPage extends StatelessWidget {
 
     return ValueBuilder<MyTheme>(
         streamed: theme,
-        builder: (context, snapshot) {
-          return MaterialApp(
+        builder: (context, snapshot) => MaterialApp(
+              debugShowCheckedModeBanner: false,
               title: 'Trivia example',
               theme: _buildThemeData(snapshot.data),
-              home: HomePage());
-        });
+              home: HomePage())
+        );
   }
 
-  ThemeData _buildThemeData(MyTheme appTheme) {
-    return ThemeData(
+  ThemeData _buildThemeData(MyTheme appTheme)=> ThemeData(
       brightness: appTheme.brightness,
       backgroundColor: appTheme.backgroundColor,
       scaffoldBackgroundColor: appTheme.scaffoldBackgroundColor,
@@ -44,5 +42,4 @@ class MaterialPage extends StatelessWidget {
       primaryColorBrightness: appTheme.primaryColorBrightness,
       accentColor: appTheme.accentColor,
     );
-  }
 }

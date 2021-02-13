@@ -21,16 +21,16 @@ class MainPage extends StatelessWidget {
             final categories = snapshot.data;
 
             return Column(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Container(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 28.0, vertical: 56.0),
                       child: const Text(
-                        'TRIVIA',
+                        'Quiz',
                         style: TextStyle(
                           fontSize: 46.0,
                           fontWeight: FontWeight.w700,
@@ -46,44 +46,44 @@ class MainPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const Text(
-                      'Choose a category:',
-                      style: TextStyle(
-                        fontSize: 16.0,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.white,
-                        shadows: [
-                          Shadow(
-                            blurRadius: 14.0,
-                            color: Colors.lightBlueAccent,
-                          ),
-                        ],
-                      ),
-                    ),
-                    ValueBuilder<Category>(
-                      streamed: appState.categoryChosen,
-                      builder: (context, snapshotCategory) =>
-                          DropdownButton<Category>(
-                            isExpanded: true,
-                            value: snapshotCategory.data,
-                            onChanged: appState.setCategory,
-                            items: categories
-                                .map<DropdownMenuItem<Category>>(
-                                  (value) => DropdownMenuItem<Category>(
-                                        value: value,
-                                        child: Text(
-                                          value.name,
-                                          style: const TextStyle(
-                                            fontSize: 16.0,
-                                            fontWeight: FontWeight.w600,
-                                            color: Colors.orange,
-                                          ),
-                                        ),
-                                      ),
-                                )
-                                .toList(),
-                          ),
-                    ),
+                    // const Text(
+                    //   'Choose a category:',
+                    //   style: TextStyle(
+                    //     fontSize: 16.0,
+                    //     fontWeight: FontWeight.w600,
+                    //     color: Colors.white,
+                    //     shadows: [
+                    //       Shadow(
+                    //         blurRadius: 14.0,
+                    //         color: Colors.lightBlueAccent,
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
+                    // ValueBuilder<Category>(
+                    //   streamed: appState.categoryChosen,
+                    //   builder: (context, snapshotCategory) =>
+                    //       DropdownButton<Category>(
+                    //         isExpanded: true,
+                    //         value: snapshotCategory.data,
+                    //         onChanged: appState.setCategory,
+                    //         items: categories
+                    //             .map<DropdownMenuItem<Category>>(
+                    //               (value) => DropdownMenuItem<Category>(
+                    //                     value: value,
+                    //                     child: Text(
+                    //                       value.name,
+                    //                       style: const TextStyle(
+                    //                         fontSize: 16.0,
+                    //                         fontWeight: FontWeight.w600,
+                    //                         color: Colors.orange,
+                    //                       ),
+                    //                     ),
+                    //                   ),
+                    //             )
+                    //             .toList(),
+                    //       ),
+                    // ),
                   ],
                 ),
                 GestureDetector(
@@ -97,13 +97,13 @@ class MainPage extends StatelessWidget {
                           Radius.circular(35),
                         ),
                         boxShadow: [
-                          BoxShadow(
+                          const BoxShadow(
                               color: Colors.blue,
                               blurRadius: 2.0,
                               spreadRadius: 2.5),
                         ]),
                     child: const Text(
-                      'Play trivia',
+                      'Start Quiz',
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                   ),

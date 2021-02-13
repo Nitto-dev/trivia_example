@@ -55,7 +55,7 @@ class DrawerWidget extends StatelessWidget {
           DrawerHeader(
             child: Center(
               child: const Text(
-                'TRIVIA',
+                'Nitto Quiz',
                 style: TextStyle(
                   fontSize: 36.0,
                   fontWeight: FontWeight.w700,
@@ -85,9 +85,9 @@ class DrawerWidget extends StatelessWidget {
               );
             },
           ),
-          const AboutListTile(
-            child: Text('Made with Flutter'),
-          ),
+          // const AboutListTile(
+          //   child: Text('Made with Flutter'),
+          // ),
         ],
       ),
     );

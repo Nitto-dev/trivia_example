@@ -25,14 +25,20 @@ class _SettingsPageState extends State<SettingsPage> {
 
     amountController.text = (appState.questionsAmount.value);
 
-    List<Widget> _buildThemesList() {
-      return appState.themes.map((MyTheme appTheme) {
-        return DropdownMenuItem<MyTheme>(
+    List<Widget> _buildThemesList() => appState.themes.map((MyTheme appTheme) =>
+        DropdownMenuItem<MyTheme>(
           value: appTheme,
           child: Text(appTheme.name, style: const TextStyle(fontSize: 14.0)),
-        );
-      }).toList();
-    }
+        )).toList();
+
+    // List<Widget> _buildThemesList() {
+    //   return appState.themes.map((MyTheme appTheme) {
+    //     return DropdownMenuItem<MyTheme>(
+    //       value: appTheme,
+    //       child: Text(appTheme.name, style: const TextStyle(fontSize: 14.0)),
+    //     );
+    //   }).toList();
+    // }
 
     return Scaffold(
       resizeToAvoidBottomPadding: true,

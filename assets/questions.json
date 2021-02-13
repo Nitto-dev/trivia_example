@@ -1,0 +1,118 @@
+{
+  "response_code": 0,
+  "results": [{
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What kind of software development projects can be executed by Scrum Project Management Framework?",
+    "correct_answer": "All kinds of software development projects",
+    "incorrect_answers": [
+      "Customer projects",
+      "None of the given answers",
+      "Complete software packages"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What does NOT belong to cornerstones of the agile manifesto?",
+    "correct_answer": "Processes over people",
+    "incorrect_answers": [
+      "Individuals and interactions over processes and tools",
+      "Working software over comprehensive documentation",
+      "Customer collaboration over contract negotiation",
+      "Responding to change over following a plan"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is defined by the Scrum Framework?",
+    "correct_answer": "Document guidelines",
+    "incorrect_answers": [
+      "Artifacts and events",
+      "Rules & Roles"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Where are the customer requirements stored?",
+    "correct_answer": "In the Product Backlog",
+    "incorrect_answers": [
+      "In the Sprint Backlog",
+      "In a Scrum Product Requirement Specification",
+      "Nowhere. The Scrum Product Owner knows them"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which ones of the following main roles are defined by Scrum Framework?",
+    "correct_answer": "Scrum Tester",
+    "incorrect_answers": [
+      "The Scrum Team",
+      "Scrum Manager",
+      "Scrum Master",
+      "Scrum Product Owner"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which ones of the following main events are defined by Scrum Framework?",
+    "correct_answer": "Sprint Planning Meeting",
+    "incorrect_answers": [
+      "Sprint Retrospective Meeting",
+      "Sprint Review Meeting",
+      "Mid-Sprint Status Review Meeting",
+      "Daily Scrum Meeting"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which concept is NOT defined in the Scrum Framework?",
+    "correct_answer": "Scrum Master",
+    "incorrect_answers": [
+      "Project Manager",
+      "Scrum Product Owner",
+      "Daily Scrum",
+      "Scrum Product Burndown"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is important in all Scrum projects?",
+    "correct_answer": "Self-organization",
+    "incorrect_answers": [
+      "Clear hierarchies in the company",
+      "Communication",
+      "Continuous improvement"
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In software engineering what are the disadvantages of the classical waterfall model?",
+    "correct_answer": "End-Product has to be fully anticipated beforehand",
+    "incorrect_answers": [
+      "Some requirements are implemented as defined in the beginning of the project, and yet they are not really needed by the customer.",
+      "Each phase is strictly separated."
+    ]
+  }, {
+    "category": "Scrum",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What are the advantages of the Scrum Framework?",
+    "correct_answer": "Fine-grained requirements are only defined when they are really needed.",
+    "incorrect_answers": [
+      "All activities to design, build and test a certain functionality are kept together in one phase.",
+      "Changes are expected and welcomed by Scrum team.",
+      "All of the given answers",
+      "None of the given answers"
+    ]
+  }
+  ]
+}
