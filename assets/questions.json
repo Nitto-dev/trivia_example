@@ -20,7 +20,6 @@
     "incorrect_answers": [
       "Individuals and interactions over processes and tools",
       "Working software over comprehensive documentation",
-      "Customer collaboration over contract negotiation",
       "Responding to change over following a plan"
     ]
   }, {
@@ -53,8 +52,7 @@
     "incorrect_answers": [
       "The Scrum Team",
       "Scrum Manager",
-      "Scrum Master",
-      "Scrum Product Owner"
+      "Scrum Master"
     ]
   }, {
     "category": "Scrum",
@@ -65,7 +63,6 @@
     "incorrect_answers": [
       "Sprint Retrospective Meeting",
       "Sprint Review Meeting",
-      "Mid-Sprint Status Review Meeting",
       "Daily Scrum Meeting"
     ]
   }, {
@@ -76,7 +73,6 @@
     "correct_answer": "Scrum Master",
     "incorrect_answers": [
       "Project Manager",
-      "Scrum Product Owner",
       "Daily Scrum",
       "Scrum Product Burndown"
     ]
@@ -110,8 +106,7 @@
     "incorrect_answers": [
       "All activities to design, build and test a certain functionality are kept together in one phase.",
       "Changes are expected and welcomed by Scrum team.",
-      "All of the given answers",
-      "None of the given answers"
+      "All of the given answers"
     ]
   }
   ]

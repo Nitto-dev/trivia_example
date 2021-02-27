@@ -37,7 +37,10 @@ class HomePage extends StatelessWidget {
     return ValueBuilder(
       streamed: appState.tabController,
       builder: (context, snapshot) => Scaffold(
-            appBar: snapshot.data != AppTab.main ? null : AppBar(),
+            appBar: snapshot.data != AppTab.main ? null : AppBar(
+              title: Text('Scrum Quiz'),
+              centerTitle: true,
+            ),
             drawer: DrawerWidget(),
             body: _switchTab(snapshot.data, appState),
           ),
@@ -55,7 +58,7 @@ class DrawerWidget extends StatelessWidget {
           DrawerHeader(
             child: Center(
               child: const Text(
-                'Nitto Quiz',
+                'Scrum Quiz',
                 style: TextStyle(
                   fontSize: 36.0,
                   fontWeight: FontWeight.w700,
