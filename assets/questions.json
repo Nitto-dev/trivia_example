@@ -10,7 +10,8 @@
       "Customer projects",
       "None of the given answers",
       "Complete software packages"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -21,7 +22,8 @@
       "Individuals and interactions over processes and tools",
       "Working software over comprehensive documentation",
       "Responding to change over following a plan"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -31,7 +33,8 @@
     "incorrect_answers": [
       "Artifacts and events",
       "Rules & Roles"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -42,7 +45,8 @@
       "In the Sprint Backlog",
       "In a Scrum Product Requirement Specification",
       "Nowhere. The Scrum Product Owner knows them"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -53,7 +57,8 @@
       "The Scrum Team",
       "Scrum Manager",
       "Scrum Master"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -64,7 +69,8 @@
       "Sprint Retrospective Meeting",
       "Sprint Review Meeting",
       "Daily Scrum Meeting"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -75,7 +81,8 @@
       "Project Manager",
       "Daily Scrum",
       "Scrum Product Burndown"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -86,7 +93,8 @@
       "Clear hierarchies in the company",
       "Communication",
       "Continuous improvement"
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -96,7 +104,8 @@
     "incorrect_answers": [
       "Some requirements are implemented as defined in the beginning of the project, and yet they are not really needed by the customer.",
       "Each phase is strictly separated."
-    ]
+    ],
+    "hint": "Test Hints"
   }, {
     "category": "Scrum",
     "type": "multiple",
@@ -107,7 +116,8 @@
       "All activities to design, build and test a certain functionality are kept together in one phase.",
       "Changes are expected and welcomed by Scrum team.",
       "All of the given answers"
-    ]
+    ],
+    "hint": "Test Hints"
   }
   ]
 }

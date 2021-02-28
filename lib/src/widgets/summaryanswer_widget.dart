@@ -13,12 +13,54 @@ class SummaryAnswers extends StatelessWidget {
     final widgets = List<Widget>()
       ..addAll(
         question.answers.map((answer) {
-          return Text(
+          var i=question.answers.indexOf(answer);
+          var finalIndex;
+          if(i==0){
+            finalIndex="A";
+          }else if(i==1){
+            finalIndex='B';
+          }else if(i==2){
+            finalIndex='C';
+          }else{
+            finalIndex='D';
+          }
+          return Padding(
+            padding: const EdgeInsets.only(left: 25),
+            child: Row(
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0, right: 4.0),
+                  child: CircleAvatar(
+                    backgroundColor: circleAvatarBackground,
+                    radius: circleAvatarRadius,
+                    child: Text(
+                      '$finalIndex',
+                        style: question.isCorrect(answer)
+                            ? correctAnswerStyle
+                            : question.isChosen(answer) ? wrongAnswerStyle : notChosenStyle,
+                    ),
+                  ),
+                ),
+                Expanded(
+                    flex: 4,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child:Text(
+                        answer,
+                        style: question.isCorrect(answer)
+                            ? correctAnswerStyle
+                            : question.isChosen(answer) ? wrongAnswerStyle : notChosenStyle,
+                      )
+                    )),
+              ],
+            ),
+          );
+          /*Text(
             answer,
             style: question.isCorrect(answer)
                 ? correctAnswerStyle
                 : question.isChosen(answer) ? wrongAnswerStyle : notChosenStyle,
-          );
+          );*/
         }),
       );
 
@@ -30,6 +72,8 @@ class SummaryAnswers extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 18),
       child: Column(
+       mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Row(
             children: <Widget>[
@@ -54,6 +98,13 @@ class SummaryAnswers extends StatelessWidget {
             ],
           ),
           Column(children: _buildAnswers(question)),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Note: ${question.hint}',
+                style: TextStyle(color: Colors.yellow,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,), textAlign: TextAlign.start),
+          )
         ],
       ),
     );
