@@ -1,16 +1,51 @@
 {
   "response_code": 0,
-  "results": [{
-    "category": "2",
+  "results": [
+    {
+    "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "A Product Owner is essentially the same thing as a traditional Project Manager?",
+    "question": "The Scrum Team must choose at least one high priority process improvement item, identified during the Sprint Retrospective, and place it in the Sprint Backlog.",
     "correct_answer": "False",
     "incorrect_answers": [
       "True"
     ],
-    "hint": "A traditional project manager is responsible for all aspects of a project; costs, resources, execution, release, planning, capacity. Scrum is a framework for complex product development, regardless of whether the work is organized in projects. The Product Owner is accountable for maximizing the value of the product and the work performed, this is complemented by the specific accountabilities of the Developers and the Scrum Master."
-  }, {
+    "hint": "An earlier version of the Scrum Guide prescribed the practice of placing one improvement in the Sprint Backlog. This was removed in the 2020 update to the Scrum Guide because it was felt to be too prescriptive. However, if this practice provides value to you then you should adopt it. It is simply not prescribed anymore, but can still be valuable."
+  },
+    {
+      "category": "Scrum",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The value delivered by a product can only be determined by revenue.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ],
+      "hint": "Value is likely to vary across products and organizations."
+    },
+    {
+      "category": "Scrum",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Sprint Review is the only time at which stakeholder feedback is taken into account.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ],
+      "hint": "A Product Owner engages actively and regularly with stakeholders. However, to limit the disturbance to the development progress and keep focus high, the stakeholders have a formal role in the process at the Sprint Review only"
+    },
+    {
+      "category": "Scrum",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "A Product Owner is essentially the same thing as a traditional Project Manager?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ],
+      "hint": "A traditional project manager is responsible for all aspects of a project; costs, resources, execution, release, planning, capacity. Scrum is a framework for complex product development, regardless of whether the work is organized in projects. The Product Owner is accountable for maximizing the value of the product and the work performed, this is complemented by the specific accountabilities of the Developers and the Scrum Master."
+    },
+    {
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -22,7 +57,7 @@
       "Lowest development cost in order to maximize Return on Investment (ROI)."
     ],
     "hint": "The Product Owner is responsible for ordering the items in the Product Backlog to best achieve the Product Goal, thereby optimizing the value of the work the Developers perform. How this is done, and what value means, may vary widely across organizations."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -34,7 +69,7 @@
       "Describing an Increment at Sprint Planning and making sure that the Developers deliver it by the end of the Sprint."
     ],
     "hint": "In addition to being accountable for maximizing the value of the product and the work of the Scrum Team, the Product Owner is accountable for effective Product Backlog management, communicating the Product Goal, ordering the Product Backlog, and making the Product Backlog transparent. The Product Owner may do these things or may delegate the responsibility to others except that ordering the Product Backlog may not be delegated."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -46,7 +81,7 @@
       "Items the Scrum Master has identified as impediments."
     ],
     "hint": "For the Product Owner to succeed, the entire organization must respect their decision"
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -58,17 +93,7 @@
       "Not enough Product Backlog items are ready."
     ],
     "hint": "A new Sprint starts immediately after the conclusion of the previous Sprint."
-  }, {
-    "category": "Scrum",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "3",
-    "correct_answer": "False",
-    "incorrect_answers": [
-      "True"
-    ],
-    "hint": "A traditional project manager is responsible for all aspects of a project; costs, resources, execution, release, planning, capacity. Scrum is a framework for complex product development, regardless of whether the work is organized in projects. The Product Owner is accountable for maximizing the value of the product and the work performed, this is complemented by the specific accountabilities of the Developers and the Scrum Master."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -80,7 +105,7 @@
       "Project Manager 2.0."
     ],
     "hint": "The Product Owner is responsible for maximizing the value of the product."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -92,7 +117,7 @@
       "Change the Sprint Goal."
     ],
     "hint": "During the Sprint, scope may be clarified and re-negotiated between the Product Owner and Developers as more is learned."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -104,7 +129,7 @@
       "A clear cadence of when the Daily Scrum will take place."
     ],
     "hint": "Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint. This resulting plan is created by the collaborative work of the entire Scrum Team. The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal."
-  }, {
+  },{
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
@@ -116,8 +141,7 @@
       "Never, unless agreed to by the change request."
     ],
     "hint": "The Product Backlog is dynamic; it constantly changes to identify what the product needs in order to be appropriate, competitive, and useful. Product Backlog items can be updated at any time by the Product Owner or a delegate. However, the ordering of Product backlog items cannot be delegated."
-  },
-    {
+  },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -141,8 +165,7 @@
         "The Product Owner as they are responsible for the product's success."
       ],
       "hint": "If the Definition of Done for an Increment is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -153,8 +176,7 @@
         "The Product Owner."
       ],
       "hint": "The Developers are responsible for all estimates. The people who will perform the work make the final estimate."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -165,8 +187,7 @@
         "The money spent on development and delivery of the product."
       ],
       "hint": "The Product Owner is not only accountable for development and release of a product, but also the cost of maintaining and operating the product over its lifetime."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -188,8 +209,7 @@
         "To learn about the Scrum Team’s productivity."
       ],
       "hint": "Releasing the Increment to customers/users is the only way to validate assumptions about value."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -201,8 +221,7 @@
         "Timeboxes help by making sure a Sprint does not stop until all testing is done, and the work is verified by the Product Owner."
       ],
       "hint": "The Product Owner manages the Product Backlog against the assumption that value will be generated. This assumption remains invalidated when not checked against users and the market. When a Sprint's horizon is too long, you increase the risk that what is being developed may no longer be desired. Sprints limit risk to one calendar month or less of work."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -230,16 +249,6 @@
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "1",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ],
-      "hint": "A traditional project manager is responsible for all aspects of a project; costs, resources, execution, release, planning, capacity. Scrum is a framework for complex product development, regardless of whether the work is organized in projects. The Product Owner is accountable for maximizing the value of the product and the work performed, this is complemented by the specific accountabilities of the Developers and the Scrum Master."
-    },{
-      "category": "Scrum",
-      "type": "multiple",
-      "difficulty": "medium",
       "question": "What best describes the relationship of the Product Owner and the stakeholders?",
       "correct_answer": "The Product Owner actively asks for stakeholder input and expectations to incorporate into the Product Backlog.",
       "incorrect_answers": [
@@ -259,8 +268,7 @@
         "Ask the Product Owner’s manager to decide in the Product Owner’s absence."
       ],
       "hint": "The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage. The Scrum Team consists of a Product Owner, the Developers, and a Scrum Master. The Product Owner is responsible for maximizing the value of the product and the work of the Scrum Team. In the absence of a Product Owner, the latter accountability is not performed."
-    },
-    {
+    },{
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
@@ -294,16 +302,6 @@
         "A Sprint Review acceptance report."
       ],
       "hint": "Various practices upon trending have been used to forecast progress, like burn-downs, burn-ups, or cumulative flows. These have proven useful, but none are mandatory, and care should be taken because none can replace the importance of empiricism. What will happen is unknown, no matter what has happened."
-    },{
-      "category": "Scrum",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "A Product Owner is essentially the same thing as a traditional Project Manager?",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ],
-      "hint": "A traditional project manager is responsible for all aspects of a project; costs, resources, execution, release, planning, capacity. Scrum is a framework for complex product development, regardless of whether the work is organized in projects. The Product Owner is accountable for maximizing the value of the product and the work performed, this is complemented by the specific accountabilities of the Developers and the Scrum Master."
     },{
       "category": "Scrum",
       "type": "multiple",
