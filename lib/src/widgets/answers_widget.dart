@@ -171,7 +171,7 @@ class _AnswersWidgetState extends State<AnswersWidget>
                         questionLeadings[index],
                         style: answersLeadingStyle,
                       )),
-                  title: Text(answer, style: answersStyle),
+                  title: Text(widget.question.answers[index], style: answersStyle),
                 ),
               ),
             ),
