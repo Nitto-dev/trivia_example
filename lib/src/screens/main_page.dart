@@ -4,7 +4,6 @@ import 'package:frideos/frideos.dart';
 
 import '../models/appstate.dart';
 import '../models/category.dart';
-import '';
 
 
 class MainPage extends StatelessWidget {
@@ -153,15 +152,16 @@ class MainPage extends StatelessWidget {
                             child: Material(
                               color: Colors.transparent,
                               child: InkWell(
-                                onTap: () {
-                                  {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => Knowledge(),),
-                                    );
-                                  }
-                                },
+                                onTap: appState.
+                                // {
+                                //   {
+                                //     Navigator.push(
+                                //       context,
+                                //       MaterialPageRoute(
+                                //         builder: (context) => Knowledge(),),
+                                //     );
+                                //   }
+                                // },
 
                                 child: Padding(
                                   padding: const EdgeInsets.all(20.0),

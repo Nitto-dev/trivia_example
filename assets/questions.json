@@ -121,18 +121,6 @@
     "category": "Scrum",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which of the following are needed in order to allow Sprint Planning to begin?",
-    "correct_answer": "A Product Goal communicated by the Product Owner.",
-    "incorrect_answers": [
-      "Formal budget approval to conduct another Sprint.",
-      "A fully refined Product Backlog.",
-      "A clear cadence of when the Daily Scrum will take place."
-    ],
-    "hint": "Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint. This resulting plan is created by the collaborative work of the entire Scrum Team. The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal."
-  },{
-    "category": "Scrum",
-    "type": "multiple",
-    "difficulty": "medium",
     "question": "When can the Product Backlog be updated?",
     "correct_answer": "At any time when done by the Product Owner or a delegate.",
     "incorrect_answers": [
@@ -225,19 +213,6 @@
       "category": "Scrum",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What phrases best describe the relationship of the Product Owner and the Developers?",
-      "correct_answer": "hey collaborate often so the Developers build Increments keeping end-user and stakeholder concerns in mind.",
-      "incorrect_answers": [
-        "They should share no more than the Sprint Planning and the Sprint Review meeting.",
-        "The Product Owner should be with the Developers full-time to grow a deep understanding of the technology being used.",
-        "They should work apart as much as possible in order to keep the concerns of business and technology separated."
-
-      ],
-      "hint": "The Product owner clearly expresses Product Backlog items, ensuring the Developers understand items in the Product Backlog to the level needed for developing them and creating the value the Product Owner envisions. Scope may be re-negotiated if the effort grows much higher than anticipated."
-    },{
-      "category": "Scrum",
-      "type": "multiple",
-      "difficulty": "medium",
       "question": "Is the Product Owner required to be present at the Sprint Retrospective?",
       "correct_answer": "Their attendance is mandatory. The Sprint Retrospective is an opportunity for the Scrum Team to assess and improve itself.",
       "incorrect_answers": [
@@ -279,17 +254,6 @@
         "Calculating value points is a predictive approach that conflicts with the empiricism of Scrum, and is therefore not acceptable."
       ],
       "hint": "The Product Owner is accountable for ordering the Product backlog, regardless of the techniques they may utilize to define that order. Indications of value on Product Backlog items may be useful but are only a prediction until validated by users and the market."
-    },{
-      "category": "Scrum",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Adaptation requires regular inspection. In what ways does the Product Owner contribute to the results achieved by inspection ?",
-      "correct_answer": "The Product Owner shares the current state of Product Backlog at the Sprint Review, which, combined with the inspection of the Increment, leads to an updated Product Backlog.",
-      "incorrect_answers": [
-        "The Product Owner verifies the Sprint Backlog for completeness at the end of Sprint Planning in order to allow the Sprint to start.",
-        "The Product Owner inspects the Sprint burn-down at the Daily Scrum for progress towards a complete Increment and re-planning the team's work."
-      ],
-      "hint": "Scrum users must frequently inspect Scrum artifacts and progress to detect undesirable variances. The primary tool for the Product Owner to uphold transparency is the Product Backlog. Product Backlog is a living artifact that is actively maintained and updated to reflect reality. At the Sprint Review, attendees collaborate on the next things that could be done to optimize value, which is processed into an updated Product Backlog."
     },{
       "category": "Scrum",
       "type": "multiple",
