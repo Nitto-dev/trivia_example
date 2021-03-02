@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:frideos/frideos.dart';
+import 'package:trivia_ex/src/screens/knowledge_page.dart';
 
 import '../models/appstate.dart';
 import '../models/category.dart';
@@ -152,16 +153,7 @@ class MainPage extends StatelessWidget {
                             child: Material(
                               color: Colors.transparent,
                               child: InkWell(
-                                onTap: appState.
-                                // {
-                                //   {
-                                //     Navigator.push(
-                                //       context,
-                                //       MaterialPageRoute(
-                                //         builder: (context) => Knowledge(),),
-                                //     );
-                                //   }
-                                // },
+                                onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context)=>KnowledgePage())),
 
                                 child: Padding(
                                   padding: const EdgeInsets.all(20.0),
