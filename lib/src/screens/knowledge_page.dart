@@ -17,8 +17,9 @@ class _KnowledgePageState extends State<KnowledgePage> {
       ),
       body: ListView(
         children: [
-          CustomList("Step by Step Salah", "Learn details by Taping this", ()=>WebViewLoad(assetHTML:'assets/Fivesalah.html')),
-          CustomList("Step by Step wadu", "Learn details by Taping this", ()=>PDFViewLoadasset(assetPdf: "2020-Scrum-Guide-US.pdf",))
+          Text("kkkk")
+          //CustomList("Step by Step Salah", "Learn details by Taping this", ()=>WebViewLoad(assetHTML:'assets/Fivesalah.html')),
+          //CustomList("Step by Step wadu", "Learn details by Taping this", ()=>PDFViewLoadasset(assetPdf: "2020-Scrum-Guide-US.pdf",))
         ],
       )
     );
